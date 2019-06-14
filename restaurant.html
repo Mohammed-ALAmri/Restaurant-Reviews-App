@@ -21,7 +21,7 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" aria-label="Navigation">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -33,7 +33,7 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-        <div id='map'></div>
+        <div id='map' aria-label="location" role="application"></div>
         <script>
           mapboxgl.accessToken = 'pk.eyJ1IjoibWZheCIsImEiOiJjand2cHpuZ3cwd3FxM3hwY2tlNG82eWNuIn0.gVYXtAKJsAb-3zuI3z5YfA';
           var map = new mapboxgl.Map({
